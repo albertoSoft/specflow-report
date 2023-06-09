@@ -8,7 +8,7 @@ namespace TestProject3
     [Binding]
     public class Feature1StepDefinitions
     {
-        RestClient client = new RestClient("http://localhost:3000/");
+        RestClient client = new RestClient("https://jsonplaceholder.typicode.com/");
         RestRequest request = new RestRequest("posts/{postId}", Method.Get);
         RestResponse response;
 
