@@ -1,0 +1,99 @@
+{
+  "uuid": "fa483ec4bb8f4395a7ffc4c9b39b8077",
+  "historyId": "Get By id",
+  "fullName": "Get By id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az446-540"
+    },
+    {
+      "name": "feature",
+      "value": "Feature1"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "regretion"
+    },
+    {
+      "name": "tag",
+      "value": "integration"
+    },
+    {
+      "name": "tag",
+      "value": "JIRA-7777"
+    }
+  ],
+  "links": [],
+  "name": "Get By id",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a id with value 1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686351115083,
+      "stop": 1686351115316
+    },
+    {
+      "name": "When  I send a GET request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686351115317,
+      "stop": 1686351115466
+    },
+    {
+      "name": "Then  I expected a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686351115466,
+      "stop": 1686351115477
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686351115064,
+  "stop": 1686351115479
+}
