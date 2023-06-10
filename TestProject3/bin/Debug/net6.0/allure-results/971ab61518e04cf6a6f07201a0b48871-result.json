@@ -1,0 +1,113 @@
+{
+  "uuid": "a1bfe175fad24de785d7b6c66c71a494",
+  "historyId": "No product is created without token",
+  "fullName": "No product is created without token",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MJF0ES5"
+    },
+    {
+      "name": "feature",
+      "value": "Feature1"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    }
+  ],
+  "links": [],
+  "name": "No product is created without token",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have correct product data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686380023312,
+      "stop": 1686380023312
+    },
+    {
+      "name": "But  I don´t have token",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686380023312,
+      "stop": 1686380023313
+    },
+    {
+      "name": "When  I send a POST request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686380023314,
+      "stop": 1686380023868
+    },
+    {
+      "name": "Then  I expected a forbidden code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686380023868,
+      "stop": 1686380023869
+    },
+    {
+      "name": "And  I expected error value is  \"Forbidden\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686380023869,
+      "stop": 1686380023870
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686380023311,
+  "stop": 1686380023870
+}
