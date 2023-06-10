@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jun 09 22:51:55 GMT 2023","Fri Jun 09 22:51:55 GMT 2023","415","","","","","","Get By id",""
+"passed","Sat Jun 10 07:30:30 GMT 2023","Sat Jun 10 07:30:30 GMT 2023","329","","","","","","New product is created without token",""
+"broken","Sat Jun 10 07:30:30 GMT 2023","Sat Jun 10 07:30:30 GMT 2023","86","","","","","","No product is created without token",""
+"passed","Sat Jun 10 07:30:29 GMT 2023","Sat Jun 10 07:30:30 GMT 2023","883","","","","","","Get Product By id",""
+"passed","Sat Jun 10 06:18:36 GMT 2023","Sat Jun 10 06:18:37 GMT 2023","597","","","","","","No product is create without token",""
