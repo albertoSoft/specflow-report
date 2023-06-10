@@ -18,7 +18,7 @@ Scenario: No product is created without token
 	And  I expected error value is  "Forbidden"
 
 	@positive
-Scenario: New product is created without token
+Scenario: New product is created with valid token
 	Given I have correct product data
 	And I have valid token
 	When I send a POST request
