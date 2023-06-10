@@ -1,0 +1,113 @@
+{
+  "uuid": "9ae720795f364f1b9027e1e98edcd508",
+  "historyId": "New product is created without token",
+  "fullName": "New product is created without token",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az244-886"
+    },
+    {
+      "name": "feature",
+      "value": "Feature1"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    }
+  ],
+  "links": [],
+  "name": "New product is created without token",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have correct product data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686382230197,
+      "stop": 1686382230199
+    },
+    {
+      "name": "And  I have valid token",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686382230199,
+      "stop": 1686382230460
+    },
+    {
+      "name": "When  I send a POST request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686382230460,
+      "stop": 1686382230523
+    },
+    {
+      "name": "Then  I expected a created code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686382230523,
+      "stop": 1686382230524
+    },
+    {
+      "name": "And  I expected id returned is 0",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686382230524,
+      "stop": 1686382230526
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686382230197,
+  "stop": 1686382230526
+}
